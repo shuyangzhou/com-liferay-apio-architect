@@ -26,8 +26,8 @@ import com.liferay.apio.architect.sample.liferay.portal.internal.identifier.Aggr
 import com.liferay.apio.architect.sample.liferay.portal.internal.identifier.CommentableIdentifier;
 import com.liferay.apio.architect.sample.liferay.portal.internal.rating.AggregateRating;
 import com.liferay.apio.architect.sample.liferay.portal.internal.rating.AggregateRatingService;
-import com.liferay.apio.architect.sample.liferay.portal.website.WebSite;
-import com.liferay.apio.architect.sample.liferay.portal.website.WebSiteService;
+import com.liferay.apio.architect.sample.liferay.portal.internal.website.WebSite;
+import com.liferay.apio.architect.sample.liferay.portal.internal.website.WebSiteService;
 import com.liferay.blogs.kernel.exception.NoSuchEntryException;
 import com.liferay.blogs.kernel.model.BlogsEntry;
 import com.liferay.blogs.kernel.service.BlogsEntryService;

@@ -16,8 +16,6 @@ package com.liferay.apio.architect.sample.liferay.portal.internal.website;
 
 import com.liferay.apio.architect.pagination.PageItems;
 import com.liferay.apio.architect.pagination.Pagination;
-import com.liferay.apio.architect.sample.liferay.portal.website.WebSite;
-import com.liferay.apio.architect.sample.liferay.portal.website.WebSiteService;
 import com.liferay.portal.kernel.exception.NoSuchGroupException;
 import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.model.Group;
