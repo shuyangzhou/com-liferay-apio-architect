@@ -12,7 +12,7 @@
  * details.
  */
 
-package com.liferay.apio.architect.sample.liferay.portal.identifier;
+package com.liferay.apio.architect.sample.liferay.portal.internal.identifier;
 
 import aQute.bnd.annotation.ProviderType;
 
@@ -23,7 +23,7 @@ import com.liferay.portal.kernel.model.ClassedModel;
  *
  * <p>
  * This identifier should only be used to identify single items in {@link
- * com.liferay.apio.architect.sample.liferay.portal.rating.AggregateRating}.
+ * AggregateRating}.
  * </p>
  *
  * @author Alejandro Hernández

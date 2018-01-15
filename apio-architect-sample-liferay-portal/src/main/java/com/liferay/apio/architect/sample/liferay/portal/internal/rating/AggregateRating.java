@@ -12,11 +12,11 @@
  * details.
  */
 
-package com.liferay.apio.architect.sample.liferay.portal.rating;
+package com.liferay.apio.architect.sample.liferay.portal.internal.rating;
 
 import aQute.bnd.annotation.ProviderType;
 
-import com.liferay.apio.architect.sample.liferay.portal.identifier.AggregateRatingIdentifier;
+import com.liferay.apio.architect.sample.liferay.portal.internal.identifier.AggregateRatingIdentifier;
 
 /**
  * Represents an average rating for an item.

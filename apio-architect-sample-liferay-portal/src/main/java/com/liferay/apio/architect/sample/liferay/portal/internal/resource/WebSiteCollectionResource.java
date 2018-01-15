@@ -20,8 +20,8 @@ import com.liferay.apio.architect.representor.Representor;
 import com.liferay.apio.architect.resource.CollectionResource;
 import com.liferay.apio.architect.routes.CollectionRoutes;
 import com.liferay.apio.architect.routes.ItemRoutes;
-import com.liferay.apio.architect.sample.liferay.portal.website.WebSite;
-import com.liferay.apio.architect.sample.liferay.portal.website.WebSiteService;
+import com.liferay.apio.architect.sample.liferay.portal.internal.website.WebSite;
+import com.liferay.apio.architect.sample.liferay.portal.internal.website.WebSiteService;
 import com.liferay.portal.kernel.model.Company;
 
 import java.util.Optional;

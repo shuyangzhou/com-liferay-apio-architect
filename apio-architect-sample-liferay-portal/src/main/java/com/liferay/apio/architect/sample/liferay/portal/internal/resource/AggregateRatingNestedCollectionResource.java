@@ -17,9 +17,9 @@ package com.liferay.apio.architect.sample.liferay.portal.internal.resource;
 import com.liferay.apio.architect.representor.Representor;
 import com.liferay.apio.architect.resource.ItemResource;
 import com.liferay.apio.architect.routes.ItemRoutes;
-import com.liferay.apio.architect.sample.liferay.portal.identifier.AggregateRatingIdentifier;
-import com.liferay.apio.architect.sample.liferay.portal.rating.AggregateRating;
-import com.liferay.apio.architect.sample.liferay.portal.rating.AggregateRatingService;
+import com.liferay.apio.architect.sample.liferay.portal.internal.identifier.AggregateRatingIdentifier;
+import com.liferay.apio.architect.sample.liferay.portal.internal.rating.AggregateRating;
+import com.liferay.apio.architect.sample.liferay.portal.internal.rating.AggregateRatingService;
 
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;

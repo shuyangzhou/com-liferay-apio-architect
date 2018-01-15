@@ -14,8 +14,7 @@
 
 package com.liferay.apio.architect.sample.liferay.portal.internal.rating;
 
-import com.liferay.apio.architect.sample.liferay.portal.identifier.AggregateRatingIdentifier;
-import com.liferay.apio.architect.sample.liferay.portal.rating.AggregateRating;
+import com.liferay.apio.architect.sample.liferay.portal.internal.identifier.AggregateRatingIdentifier;
 import com.liferay.ratings.kernel.model.RatingsEntry;
 
 import java.util.List;
