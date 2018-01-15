@@ -12,45 +12,28 @@
  * details.
  */
 
-package com.liferay.apio.architect.sample.liferay.portal.rating;
+package com.liferay.apio.architect.sample.liferay.portal.internal.rating;
 
 import aQute.bnd.annotation.ProviderType;
 
 import com.liferay.apio.architect.sample.liferay.portal.internal.identifier.AggregateRatingIdentifier;
 
 /**
- * Represents an average rating for an item.
- *
- * <p>
- * This conforms to the <a
- * href="http://schema.org/AggregateRating">AggregateRating </a> type from
- * schema.org.
- * </p>
+ * Provides the service for getting an {@link AggregateRating}.
  *
  * @author Alejandro Hernández
  */
 @ProviderType
-public interface AggregateRating {
+public interface AggregateRatingService {
 
 	/**
-	 * Returns the aggregate rating's identifier.
+	 * Returns the aggregate rating specified by the aggregate rating
+	 * identifier.
 	 *
-	 * @return the aggregate rating's identifier
+	 * @param  aggregateRatingIdentifier the aggregate rating's identifier
+	 * @return the aggregate rating
 	 */
-	public AggregateRatingIdentifier getAggregateRatingIdentifier();
-
-	/**
-	 * Returns the total number of ratings in the aggregate rating.
-	 *
-	 * @return the total number of ratings in the aggregate rating
-	 */
-	public Integer getRatingCount();
-
-	/**
-	 * Returns the aggregate rating's value.
-	 *
-	 * @return the aggregate rating's value
-	 */
-	public Double getRatingValue();
+	public AggregateRating getAggregateRating(
+		AggregateRatingIdentifier aggregateRatingIdentifier);
 
 }
